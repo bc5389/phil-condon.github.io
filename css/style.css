@@ -24,7 +24,7 @@ img {
 
 header {
 	width: 100%;
-	background-color: rgba(0,0,0,.8);
+	background-color: #333;
 	height: 150px;
 }
 
@@ -75,7 +75,7 @@ nav a:hover {
 	color: #eee;
 	font-size: 3em;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 0
 }
 
 #home-content h2{
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 .heading-wrap {
-	background: rgba(0,0,0,.5)
+	background: rgba(0,0,0,.5);
 }
 
 footer {
@@ -248,7 +248,6 @@ MEDIA QUERIES
 	 
 	 #home-content h1 {
 		 font-size: 1.8em;
-		 margin-top: 40%;
 	 }
 	 
 	 #home-content h2 {
