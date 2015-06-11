@@ -67,9 +67,8 @@ nav a:hover {
 #home-content {
 	background: url("../images/chicken.jpg") no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	height: 90%;
-	overflow: hidden
 	}
 	
 #home-content h1{
