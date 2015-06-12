@@ -121,7 +121,6 @@ footer p:nth-of-type(1) {
 	 
 	header {
 		text-align: center;
-		height: 18%;
 	}
 	
 	.logo {
@@ -129,7 +128,7 @@ footer p:nth-of-type(1) {
 	}
 	
 	section {
-		height: 72%;
+		height: 70%;
 	}
 
  nav.right {
