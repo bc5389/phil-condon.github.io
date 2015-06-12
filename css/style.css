@@ -136,5 +136,7 @@ footer p:nth-of-type(1) {
 	display: inline-block;
 	margin: 0 auto;
 	padding-top: 1em;
+	height: 20%;
  }
+	
 }
