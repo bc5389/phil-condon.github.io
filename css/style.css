@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+html, 
+body {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+.right {
+	float: right;
+}
+
+header {
+	background-color: #333;
+	height: 15%;
+	font-family: 'Alegreya', serif;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+header .container {
+	padding: 15px;
+}
+
+nav {
+	margin-top: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	padding: 10px 25px
+}
+
+nav a:hover {
+	color: #C44421;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+section {
+	height: 75%
+}
+
+.home-section {
+	background: url("../images/chicken.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: 'Alegreya', serif;
+}
+
+footer {
+	height: 10%;
+	background-color: #222;
+	color: white;
+}
+
+footer .container {
+	padding-top: 1.2em;
+}
+
+footer p:nth-of-type(1) {
+	margin-top: 0;
+}
+
+.phone {
+	background-image: url('../images/phone.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 25px;
+	margin-bottom: 0;
+}
+
+.address {
+	background-image: url('../images/pin.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 25px;
+}
+
+.home-wrap {
+	color: white;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	padding: 2em 0;
+}
+
+.home-wrap h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 3em;
+}
+
+.home-wrap h2 {
+	font-size: 2em;
+}
+
+
+@media screen and (max-width : 700px) {
+	 
+	header {
+		text-align: center;
+		height: 18%;
+	}
+	
+	section {
+		height: 72%;
+	}
+
+ nav.right {
+	float: none;
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 1em;
+ }
+}
