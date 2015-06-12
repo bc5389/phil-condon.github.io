@@ -35,7 +35,8 @@ header .container {
 }
 
 .logo {
-	height: 80%;
+	height: 65%;
+	margin-top: 20px;
 }
 
 nav {
@@ -121,6 +122,10 @@ footer p:nth-of-type(1) {
 	header {
 		text-align: center;
 		height: 18%;
+	}
+	
+	.logo {
+		margin-top: 0;
 	}
 	
 	section {
