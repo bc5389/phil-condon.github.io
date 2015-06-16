@@ -14,7 +14,6 @@ body {
 
 header {
 	background-color: #333;
-	height: 15%;
 	font-family: 'Alegreya', serif;
 }
 
@@ -31,11 +30,9 @@ header .container {
 	padding: 15px;
 	max-width: 75%;
 	margin: 0 auto;
-	height: 100%;
 }
 
 .logo {
-	height: 65%;
 	margin-top: 20px;
 }
 
@@ -133,7 +130,7 @@ footer p:nth-of-type(1) {
 
  nav.right {
 	float: none;
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 	padding-top: 1em;
  }
