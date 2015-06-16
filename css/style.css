@@ -25,11 +25,14 @@ header {
    clear: both;
 }
 
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
 
 header .container {
 	padding: 15px;
-	max-width: 75%;
-	margin: 0 auto;
 }
 
 .logo {
@@ -121,7 +124,7 @@ footer p:nth-of-type(1) {
 	}
 	
 	.logo {
-		margin-top: 0;
+		margin: 0 auto;
 	}
 	
 	section {
