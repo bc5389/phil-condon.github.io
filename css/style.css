@@ -36,7 +36,9 @@ header .container {
 }
 
 .logo {
-	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 100%;
 }
 
 nav {
@@ -77,6 +79,11 @@ footer {
 
 footer .container {
 	padding: 1.2em 0;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -215,34 +222,43 @@ MENU PAGE
 	 
 /***** Header and Footer ******/	
 	
-	header {
-		text-align: center;
-	}
-	
-	.logo {
-		margin: 0 auto;
-	}
-	
+		header {
+			text-align: center;
+		}
 
- nav.right {
-	float: none;
-	display: block;
-	margin: 0 auto;
-	padding-top: 1em;
- }
-	
+		.logo {
+			margin: 0 auto;
+		}
+
+
+	 nav.right {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding-top: 1em;
+	 }
+
 	.home-wrap h1 {
 		font-size: 2em;
+	}
+
+	.home-wrap h2 {
+		font-size: 1.5em;
+	}
+
+	/***** Menu ******/
+	.menu-nav {
+		font-size: initial;
+		padding: 10px;
+	}
+	
 }
 
-.home-wrap h2 {
-	font-size: 1.5em;
+@media screen and (max-width: 365px) {
+	nav a {
+		padding: 0 10px;
+	}
 }
-	
-/***** Menu ******/
-.menu-nav {
-	font-size: initial;
-	padding: 10px;
-}
-	
-}
+
+
+
