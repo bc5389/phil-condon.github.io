@@ -102,7 +102,7 @@ footer p:nth-of-type(1) {
 .home-wrap {
 	color: white;
 	text-align: center;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.4);
 	height: 100%;
 	width: 100%;
 	padding: 2em 0;
