@@ -129,7 +129,7 @@ MENU PAGE
 	background: #C44421;
 	color: white;
 	text-align: center;
-	padding: 25px;
+	padding: 25px 0px;
 	font-weight: bold;
 	font-size: 1.2em;
 }
@@ -137,6 +137,7 @@ MENU PAGE
 .menu-nav ul {
 	list-style-type: none;
 	margin-top: 0;
+	padding-left: 0;
 }
 
 .menu-nav ul li {
