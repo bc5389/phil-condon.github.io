@@ -101,6 +101,7 @@ footer p:nth-of-type(1) {
 
 .home-wrap {
 	color: white;
+	position: relative;
 	text-align: center;
 	background: rgba(0,0,0,0.4);
 	height: 100%;
@@ -109,7 +110,7 @@ footer p:nth-of-type(1) {
 }
 
 .home-wrap h1 {
-	margin-top: 0;
+	margin-top: 20%;
 	margin-bottom: 0;
 	font-size: 3em;
 }
@@ -117,6 +118,7 @@ footer p:nth-of-type(1) {
 .home-wrap h2 {
 	font-size: 2em;
 }
+
 
 .selected{
 	color: #C44421;
@@ -158,8 +160,57 @@ MENU PAGE
 	cursor: pointer;
 }
 
+.menu-heading {
+	color: #C44421;
+	text-align: center;
+	border-bottom: 2px dotted #333;
+	
+}
 
+.menu-heading h1 {
+	font-size: 2.4em;
+}
 
+.menu-heading h2 {
+	font-size: 1.2em;
+	color: #666;
+	width: 75%;
+	margin: 0 auto 15px;
+}
+
+.menu-choices {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.menu-item-container {
+	padding: 1.5em 0;
+	border-bottom: 1px solid #C44421;
+}
+
+.menu-item-container:last-of-type {
+	border-bottom: none;
+}
+
+.menu-item {
+	color: #333;
+	font-weight: bold;
+}
+
+.menu-item-description {
+	font-style: italic;
+	color: #666;
+}
+
+.combo-number {
+	display: inline-block;
+	color: white;
+	background: #C44421;
+	font-size: 1.8em;
+	padding: 5px;
+	border-radius: 3px;
+	margin-right: 5px;
+}
 
 @media screen and (max-width : 768px) {
 	 
@@ -173,9 +224,6 @@ MENU PAGE
 		margin: 0 auto;
 	}
 	
-	section {
-		height: 70%;
-	}
 
  nav.right {
 	float: none;
@@ -185,7 +233,7 @@ MENU PAGE
  }
 	
 	.home-wrap h1 {
-	font-size: 2em;
+		font-size: 2em;
 }
 
 .home-wrap h2 {
