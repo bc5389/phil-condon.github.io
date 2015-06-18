@@ -255,6 +255,10 @@ MENU PAGE
 		padding: 10px;
 	}
 	
+	.menu-heading h2 {
+		font-size: 1em;
+	}
+	
 }
 
 @media screen and (max-width: 365px) {
