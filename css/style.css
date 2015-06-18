@@ -66,9 +66,12 @@ section {
 }
 
 .home-section {
-	background: url("../images/chicken.jpg") no-repeat;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)),
+		  url("../images/chicken1.jpg") no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	font-family: 'Alegreya', serif;
 }
 
@@ -110,7 +113,7 @@ footer p:nth-of-type(1) {
 	color: white;
 	position: relative;
 	text-align: center;
-	background: rgba(0,0,0,.4)
+	padding-top: 6em;
 }
 
 .home-wrap h1 {
