@@ -81,7 +81,8 @@ footer {
 }
 
 footer .container {
-	padding: 1.2em 0;
+    position:relative;
+	padding: 15px;
 }
 
 footer a {
@@ -92,6 +93,10 @@ footer a {
 
 footer p:nth-of-type(1) {
 	margin-top: 0;
+}
+
+.contact{
+    display: inline-block;
 }
 
 .phone {
@@ -107,6 +112,20 @@ footer p:nth-of-type(1) {
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 25px;
+}
+
+.social{
+	width:100%;
+    padding-right:50px;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    float: right;
+}
+
+.social a{
+    padding: 0px 25px;
 }
 
 .home-wrap {
@@ -139,7 +158,6 @@ MENU PAGE
 	background: #C44421;
 	color: white;
 	text-align: center;
-	padding: 25px 0px;
 	font-weight: bold;
 	font-size: 1.2em;
 }
@@ -147,7 +165,7 @@ MENU PAGE
 .menu-nav ul {
 	list-style-type: none;
 	margin-top: 0;
-	padding-left: 0;
+	padding: 25px 0px;
 }
 
 .menu-nav ul li {
@@ -162,7 +180,6 @@ MENU PAGE
 
 .menu-nav li:hover {
 	color: #333;
-	text-decoration: underline;
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -170,7 +187,6 @@ MENU PAGE
 .menu-heading {
 	color: #C44421;
 	text-align: center;
-	border-bottom: 2px dotted #666;
 	
 }
 
@@ -183,12 +199,13 @@ MENU PAGE
 	color: #666;
 	width: 75%;
 	margin: 0 auto 15px;
-	text-align: left;
+	text-align: center;
 }
 
 .menu-choices {
 	width: 75%;
 	margin: 0 auto;
+	border-top: 2px dotted #666;
 }
 
 .menu-item-container {
@@ -220,6 +237,28 @@ MENU PAGE
 	margin-right: 5px;
 }
 
+/********************
+CATERING PAGE
+*******************/
+
+.main-section{
+    text-align: center;
+    color: #666;
+}
+
+.cater-info{
+    padding:10px 0px;
+    margin:0px auto;
+    width:75%;
+}
+
+.cater-info h1{
+    color:#C44421;
+}
+
+/********************
+RESPONSIVE QUERIES
+*******************/
 @media screen and (max-width : 768px) {
 	 
 /***** Header and Footer ******/	
@@ -230,6 +269,18 @@ MENU PAGE
 
 		.logo {
 			margin: 0 auto;
+		}
+
+		.contact{
+			
+		}
+
+		.social{
+			position: static;
+  			float: none;
+  			text-align: center;
+  			padding: 25px; 0px;
+  			transform: translate(0%);
 		}
 
 
